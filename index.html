@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Food Ordering App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Vibhor da Dhaba</h1>
+      <h3>The best UP food in town</h3>
+    </header>
+    <main>
+      <section class="menu-list-wrapper">
+        <!-- <div class="menu-item">
+          <p>🍕</p>
+          <p>
+            <span>Pizza</span>
+            <span>pepperoni,mushrom,mozarella</span>
+            <span>$14</span>
+          </p>
+          <div>
+            <button class="add-item">+</button>
+          </div>
+        </div>
+        <div class="menu-item">
+          <p>🍔</p>
+          <p>
+            <span>Hamburger</span>
+            <span>beef, cheese, lettuce</span>
+            <span>$12</span>
+          </p>
+          <div>
+            <button class="add-item">+</button>
+          </div>
+        </div>
+        <div class="menu-item">
+          <p>🍺</p>
+          <p>
+            <span>Beer</span>
+            <span>grain, hops, yeast, water</span>
+            <span>$12</span>
+          </p>
+          <div>
+            <button class="add-item">+</button>
+          </div>
+        </div> -->
+      </section>
+      <section class="order-wrapper hide-element">
+        <!-- <p class="order-header">Your order</p>
+        <div class="bill-items-wrapper">
+          <div class="ordered-item">
+            <span>Pizza</span>
+            <span>$14</span>
+          </div>
+          <div class="ordered-item">
+            <span>Beer</span>
+            <span>$12</span>
+          </div>-->
+          <hr />
+          <div class="ordered-item" id="total-bill">
+            <span>Total price:</span>
+            <span>$26</span>
+          </div>
+        </div>
+        <button>Complete order</button> 
+      </section>
+      <section class="payment-modal-wrapper hide-element">
+        <form>
+          <label>Enter your card details</label>
+          <input type="text" id="username" name="username" placeholder="Enter your name" required>
+          <input type="text" id="card-number" name="card-number"
+          placeholder="Enter card number" required>
+          <input type="text" id="cvv" name="cvv"
+          placeholder="Enter CVV" required>
+          <input type="submit" id="pay-submit-btn">
+        </form>
+      </section>
+      <section class="thanks-message-wrapper hide-element">
+        <p>Thanks, INSERT CUSTOMER NAME HERE! Your order is on its way!</p>
+      </section>
+    </main>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
